@@ -17,5 +17,4 @@ class InfoData{
         let copyName = name == nil ? self.name : name!
         let copyPhone = phone == nil ? self.phone : phone!
     }
-
 }

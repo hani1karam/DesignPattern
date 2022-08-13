@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045320F928A83B0300501645 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045320F828A83B0300501645 /* Proxy.swift */; };
+		045320FB28A83BB100501645 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045320FA28A83BB100501645 /* Decorator.swift */; };
 		0464E2F6289DDE2B001F856A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464E2F5289DDE2B001F856A /* AppDelegate.swift */; };
 		0464E2FA289DDE2B001F856A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464E2F9289DDE2B001F856A /* ViewController.swift */; };
 		0464E2FD289DDE2B001F856A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464E2FB289DDE2B001F856A /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045320F828A83B0300501645 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		045320FA28A83BB100501645 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		0464E2F2289DDE2B001F856A /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0464E2F5289DDE2B001F856A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0464E2F9289DDE2B001F856A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045320F728A83AC900501645 /* StructuralDesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				045320F828A83B0300501645 /* Proxy.swift */,
+				045320FA28A83BB100501645 /* Decorator.swift */,
+			);
+			path = StructuralDesignPatterns;
+			sourceTree = "<group>";
+		};
 		0464E2E9289DDE2B001F856A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +122,7 @@
 			children = (
 				0464E328289DDE4F001F856A /* DesignPatterns */,
 				0464E2F5289DDE2B001F856A /* AppDelegate.swift */,
+				045320F728A83AC900501645 /* StructuralDesignPatterns */,
 				0464E32B289DE579001F856A /* CreatinalDesignPatterns */,
 				0464E2F9289DDE2B001F856A /* ViewController.swift */,
 				0464E2FB289DDE2B001F856A /* Main.storyboard */,
@@ -286,10 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045320F928A83B0300501645 /* Proxy.swift in Sources */,
 				0464E32D289DEA04001F856A /* PrototypePattern.swift in Sources */,
 				0464E32A289DDEF7001F856A /* SingletonPattern.swift in Sources */,
 				0464E331289EFBA8001F856A /* AbstractFactoryPattern.swift in Sources */,
 				0464E2FA289DDE2B001F856A /* ViewController.swift in Sources */,
+				045320FB28A83BB100501645 /* Decorator.swift in Sources */,
 				0464E2F6289DDE2B001F856A /* AppDelegate.swift in Sources */,
 				0464E32F289DF34B001F856A /* FactoryMethodPattern.swift in Sources */,
 				0464E300289DDE2B001F856A /* DesignPattern.xcdatamodeld in Sources */,
