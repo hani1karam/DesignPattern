@@ -22,6 +22,8 @@
 		0464E32D289DEA04001F856A /* PrototypePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464E32C289DEA04001F856A /* PrototypePattern.swift */; };
 		0464E32F289DF34B001F856A /* FactoryMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464E32E289DF34B001F856A /* FactoryMethodPattern.swift */; };
 		0464E331289EFBA8001F856A /* AbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464E330289EFBA8001F856A /* AbstractFactoryPattern.swift */; };
+		047A0B5C28B2636000301F8C /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A0B5B28B2636000301F8C /* ChainOfResponsibility.swift */; };
+		047A0B5E28B263B400301F8C /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A0B5D28B263B400301F8C /* Observer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		0464E32C289DEA04001F856A /* PrototypePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePattern.swift; sourceTree = "<group>"; };
 		0464E32E289DF34B001F856A /* FactoryMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPattern.swift; sourceTree = "<group>"; };
 		0464E330289EFBA8001F856A /* AbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPattern.swift; sourceTree = "<group>"; };
+		047A0B5B28B2636000301F8C /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		047A0B5D28B263B400301F8C /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 			children = (
 				0464E328289DDE4F001F856A /* DesignPatterns */,
 				0464E2F5289DDE2B001F856A /* AppDelegate.swift */,
+				047A0B5A28B2633B00301F8C /* BehavioralDesignPatterns */,
 				045320F728A83AC900501645 /* StructuralDesignPatterns */,
 				0464E32B289DE579001F856A /* CreatinalDesignPatterns */,
 				0464E2F9289DDE2B001F856A /* ViewController.swift */,
@@ -167,6 +172,15 @@
 				0464E330289EFBA8001F856A /* AbstractFactoryPattern.swift */,
 			);
 			path = CreatinalDesignPatterns;
+			sourceTree = "<group>";
+		};
+		047A0B5A28B2633B00301F8C /* BehavioralDesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				047A0B5B28B2636000301F8C /* ChainOfResponsibility.swift */,
+				047A0B5D28B263B400301F8C /* Observer.swift */,
+			);
+			path = BehavioralDesignPatterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,11 +316,13 @@
 			files = (
 				045320F928A83B0300501645 /* Proxy.swift in Sources */,
 				0464E32D289DEA04001F856A /* PrototypePattern.swift in Sources */,
+				047A0B5C28B2636000301F8C /* ChainOfResponsibility.swift in Sources */,
 				0464E32A289DDEF7001F856A /* SingletonPattern.swift in Sources */,
 				0464E331289EFBA8001F856A /* AbstractFactoryPattern.swift in Sources */,
 				0464E2FA289DDE2B001F856A /* ViewController.swift in Sources */,
 				045320FB28A83BB100501645 /* Decorator.swift in Sources */,
 				0464E2F6289DDE2B001F856A /* AppDelegate.swift in Sources */,
+				047A0B5E28B263B400301F8C /* Observer.swift in Sources */,
 				0464E32F289DF34B001F856A /* FactoryMethodPattern.swift in Sources */,
 				0464E300289DDE2B001F856A /* DesignPattern.xcdatamodeld in Sources */,
 			);
